@@ -17,8 +17,8 @@
     - bucle principal del juego
 
 ### Inicialización del juego
-- Input: número de jugadores (mínimo 2), tamaño del tablero n, tipo de jugador (humano/máquina)
-- Crear tablero de n x n vacío.
+- Input: leer de la entrada estándar el número de jugadores (mínimo 2), el número de jugadores humanos, tamaño del tablero m x n (gestionar máximos).
+- Crear tablero de m x n vacío con el formato del ejecutable.
 - Inicializar puntuación de todos los jugadores a 0.
 - Seleccionar jugador inicial (por orden o aleatorio).
 
@@ -36,7 +36,7 @@
 
     - Colocar la letra en la casilla elegida
 
-    - contar cuántos "oso" se han formado con esta jugada
+    - Contar cuántos "oso" se han formado con esta jugada
 
     - Sumar puntos_nuevos a la puntuación del jugador
   
